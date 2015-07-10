@@ -22,7 +22,6 @@ class Main extends PluginBase implements Listener{
 	}
 	
 public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
-		if($sender instanceof Player) {
 			if(strtolower($command->getName('donate'))) {
 					$sender->sendMessage(TextFormat::RED."-----------------------------------------");
 					$sender->sendMessage(TextFormat::GOLD."         Donate To TitaniumPE:         ");
@@ -30,9 +29,6 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
 					$sender->sendMessage(TextFormat::BLUE."- www.titaniumpe.buycraft.net");
 					$sender->sendMessage(TextFormat::RED."------------------------------------------");
           return true;
-          }
-          }else{
-          $this->getLogger()->info(TextFormat::RED."RUN THIS COMMAND IN GAME!");
           }
           }
           }
