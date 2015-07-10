@@ -3,3 +3,12 @@ author: ItzBulkDev
 main: TitaniumDonate\Main
 version: 1.0
 api: [1.12.0]
+commands:
+  donate:
+    description: Website to donate
+    permission: donate.command
+permissions:
+  donate.command:
+    default: true
+    description: "Website to donate"
+
