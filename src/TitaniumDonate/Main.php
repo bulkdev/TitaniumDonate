@@ -24,10 +24,10 @@ class Main extends PluginBase implements Listener{
 public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
 			if(strtolower($command->getName('donate'))) {
 					$sender->sendMessage(TextFormat::RED."-----------------------------------------");
-					$sender->sendMessage(TextFormat::GOLD."         Donate To TitaniumPE:         ");
+					$sender->sendMessage(TextFormat::GOLD."         Donate To TitaniumPE:       ");
 					$sender->sendMessage(TextFormat::BLUE."- Visit:");
 					$sender->sendMessage(TextFormat::BLUE."- www.titaniumpe.buycraft.net");
-					$sender->sendMessage(TextFormat::RED."------------------------------------------");
+					$sender->sendMessage(TextFormat::RED."-----------------------------------------");
           return true;
           }
           }
