@@ -1,0 +1,5 @@
+name: TitaniumDonate
+author: ItzBulkDev
+main: TitaniumDonate\Main
+version: 1.0
+api: [1.12.0]
