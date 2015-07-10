@@ -12,7 +12,7 @@ use pocketmine\command\CommandExecutor;
 class Main extends PluginBase implements Listener{
 	
 	public function onEnable(){
-		$this->getServer()->getPluginManager()->registerEvents();
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info(TextFormat::BLUE."Enabled!");
 		$this->getLogger()->info(TextFormat::GREEN."Created By Bulk!");
 	}
